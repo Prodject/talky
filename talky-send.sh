@@ -18,4 +18,4 @@ read COMMANDS
 
 responseToGetToken=$(curl --silent -X POST "https://api.keyvalue.xyz/$TOKEN/chatKey/$COMMANDS")
 
-echo "Commands have been send for execution \n"
+echo "Commands have been sent for execution \n"
